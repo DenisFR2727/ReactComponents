@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.list_cars{
+    color:black;
+    padding: 15px;
+    border: 2px solid red;
+    margin: 10px;
+}
+.car-enter {
+    transform: translateX(-350px);
+  }
+  .car-enter-active {
+    transform: translateX(0px);
+    transition: all 500ms ease-in;
+  }
+  .car-exit {
+    opacity: 1;
+  }
+  .car-exit-active {
+    transform: translateX(-650px);
+    transition: all 500ms ease-in;
+  }
